@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .employee-details {
+            display: inline-block;
+            text-align: left;
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Employee Details</h1>
+    <div class="employee-details">
+        <h2>{{employee.firstName}} {{employee.lastName}}</h2>
+        <p><strong>First Name:</strong>{{ employee.firstName }}</p>
+        <p><strong>Last Name:</strong>{{ employee.lastName }}</p>
+        <p><strong>Email ID:</strong> {{ employee.emailId }}</p>
+    </div>
+</body>
+</html>
